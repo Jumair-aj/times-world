@@ -1,0 +1,71 @@
+.login{
+    padding: 5%;    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    margin: auto;
+    
+}
+
+.login-form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form-input{
+    margin: 10px 0;
+    height: 40px;
+    width: 300px;
+    padding: 0 10px;
+}
+
+.btn{
+    background: black;
+    color: #eee;
+    cursor: pointer;
+}
+
+.login-img img{
+    width: 500px;
+}
+
+.signin-social h6{
+    position: relative;
+}
+.signin-social h6::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    top:50%;
+    left: 20%;
+    background-color: black;
+    display: block;
+}
+.signin-social h6::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    top:50%;
+    right: 20%;
+    background-color: black;
+    display: block;
+}
+
+.signin-social-icons{
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+i{
+    border: #333 2px solid;
+    border-radius: 50px;
+    padding: 10px;
+}
+.fa-facebook-f{
+padding: 10px 12px;}
