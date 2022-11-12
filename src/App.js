@@ -9,7 +9,10 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<LoginPage />} />
-          <Route path="/home" element={<Home />} />
+          <Route
+            path="/home"
+            element={<Home style={{ backgroundColor: "#333" }} />}
+          />
         </Routes>
       </Router>
     </div>

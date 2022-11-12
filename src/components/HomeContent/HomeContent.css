@@ -1,13 +1,24 @@
 .content{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 100px;
 }
+
+.item{
+    margin: auto 0;
+    height: 105px;
+    background: rgb(243 243 243);
+    box-shadow: #e9e5e5 2px 2px 6px 3px;
+}
+
+
 
 .flag-img{
     width: 140px;
     cursor: pointer;
+    height: 100px;
 }
 
 .flag-img:hover{
@@ -16,11 +27,20 @@
     filter: brightness(50%);
 }
 
+hr{
+    width: 60px;
+}
+
 .item h3{
     position: relative;
-    bottom: 80px;
+    bottom: 90px;
     color: #333;
     font-size: 25px;
+    padding:0 40px;
+}
+.item:hover{
+    box-shadow: #d8d5d5 2px 2px 6px 3px;
+    transition: all 0.3s ease-in-out;
 }
 
 .item:hover  h3{

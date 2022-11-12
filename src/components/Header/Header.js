@@ -1,10 +1,11 @@
 import React from 'react'
+import './Header.css'
 
 function Header() {
   return (
-    <div className='Header'>
+    <div className='header'>
         <div className="container">
-            THis is me
+            <h3>Country Flag listed by name.</h3>
         </div>
     </div>
   )
