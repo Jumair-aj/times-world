@@ -1,0 +1,99 @@
+.login{
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    /* padding: 5%;     */
+    display: flex;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.login-card h1{
+    font-size: 40px;
+}
+.login-card h6{
+    margin:20px 0;
+    font-size: medium;
+}
+.login-card h6 a{
+    color: #01b399;
+}
+
+
+.login-form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form-input{
+    margin: 10px 0;
+    height: 40px;
+    width: 300px;
+    padding: 0 10px;
+}
+
+.btn{
+    background: black;
+    color: #eee;
+    cursor: pointer;
+}
+
+.login-img img{
+    width: 500px;
+}
+
+.signin-social h6{
+    position: relative;
+    margin: 30px 0;
+}
+.signin-social h6::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    top:50%;
+    left: 25%;
+    background-color: black;
+    display: block;
+}
+.signin-social h6::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    top:50%;
+    right: 25%;
+    background-color: black;
+    display: block;
+}
+
+.signin-social-icons{
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+i{
+    border: #333 2px solid;
+    border-radius: 50px;
+    padding: 10px;
+}
+.fa-facebook-f{
+padding: 10px 12px;}
+
+@media only screen and (max-width:850px) {
+    .login-img img{
+display: none
+    }
+    .grid-container{
+        grid-template-columns: auto auto ;
+        }
+}
